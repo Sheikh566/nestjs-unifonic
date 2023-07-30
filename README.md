@@ -10,7 +10,7 @@
 [![build status](https://img.shields.io/github/workflow/status/sheikh566/nestjs-unifonic/Github%20CI%20-%20Build%20Status%20and%20Test%20Coverage)](https://github.com/wellyshen/use-places-autocomplete/actions?query=workflow%3ACI)
 [![npm version](https://img.shields.io/npm/v/nestjs-unifonic)](https://www.npmjs.com/package/nestjs-unifonic)
 [![miniziped size](https://badgen.net/bundlephobia/minzip/nestjs-unifonic)](https://bundlephobia.com/result?p=nestjs-unifonic)
-[![Downloads](https://badgen.net/bundlephobia/minzip/nestjs-unifonic)](https://img.shields.io/npm/dt/nestjs-twilio.svg?maxAge=3600)
+[![Downloads](https://badgen.net/bundlephobia/minzip/nestjs-unifonic)](https://img.shields.io/npm/dt/nestjs-unifonic.svg?maxAge=3600)
 [![MIT licensed](https://img.shields.io/github/license/sheikh566/nestjs-unifonic)](https://raw.githubusercontent.com/sheikh566/nestjs-unifonic/master/LICENSE)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sheikh566/nestjs-unifonic)
 
