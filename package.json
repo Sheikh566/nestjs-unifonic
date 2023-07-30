@@ -1,0 +1,59 @@
+{
+  "name": "nestjs-unifonic",
+  "version": "1.0.0",
+  "description": "An API wrapper of Unifonic for Nest.js",
+  "source": "lib/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --write \"lib/**/*.ts\" ",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheikh566/nestjs-unifonic.git"
+  },
+  "keywords": [
+    "unifonic",
+    "nestjs",
+    "sms",
+    "unifonic-nestjs",
+    "sdk",
+    "client"
+  ],
+  "author": {
+    "name": "Sheikh Abdullah",
+    "email": "sheikh.abdullah.566@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sheikh566/nestjs-unifonic/issues"
+  },
+  "homepage": "https://github.com/Sheikh566/nestjs-unifonic#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=9.0.0",
+    "@nestjs/core": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^10.1.2",
+    "@types/node": "^20.4.5",
+    "prettier": "^3.0.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.1.6"
+  }
+}
