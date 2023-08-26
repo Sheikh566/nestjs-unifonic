@@ -40,7 +40,7 @@ export class UnifonicService {
       AppSid: this.APP_SID,
       SenderID: this.SENDER_ID,
       Recipient: recipient,
-      Body: body,
+      Body: encodeURIComponent(body),
     };
     if (timeScheduled) queryParams['TimeScheduled'] = timeScheduled;
     if (correlationId) queryParams['correlationID'] = correlationId;
